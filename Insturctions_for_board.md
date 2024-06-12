@@ -10,3 +10,5 @@
 To know the value of resistance of your resistor by its colors 
 https://www.digikey.in/en/resources/conversion-calculators/conversion-calculator-resistor-color-code
 
+The max current that is supplied by the Rasberry Pi is 50mA.
+
