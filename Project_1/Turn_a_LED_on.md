@@ -3,4 +3,19 @@
 
 When you want to turn on the LED, set the GPIO to *high*, and when you want to turn off the LED, set it to *low*
 
+Code:
+
+```
+from gpiozero, import LED
+from time import sleep
+
+led = LED(17)
+
+While True:
+    led.on()
+    sleep(1)
+    led.off()
+    sleep(1)```
+
+
 
