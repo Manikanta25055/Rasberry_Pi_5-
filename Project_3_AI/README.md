@@ -38,11 +38,10 @@ pip install -r requirements.txt
 ./download_resources.sh
 ```
 # Detection Example
+
 ![detection](https://github.com/user-attachments/assets/e1369279-8dd5-4c93-a4c4-e30885a2e28e)
 
-
-This example demonstrates object detection. It uses YOLOv6n model as default. It supports also yolov8s and yolox_s_leaky models.
-It uses Hailo's NMS (Non-Maximum Suppression) layer as part of the HEF file, so all detection networks which are compiled with NMS can be used with the same code.
+This is the one of the basic model demonstrated here, it uses YOLOv6n model as default. 
 
 #### To run the example use:
 ```bash
@@ -54,6 +53,30 @@ For additional options run:
 ```bash
 python basic_pipelines/detection.py --help
 ```
+
+# Connect to the pi
+
+1. You can use the official Raspberry pi connect to connect to the pi, you can read the documentation here
+```
+https://www.raspberrypi.com/documentation/services/connect.html
+
+```
+2. You can connect it via a HDMI cable to the external monitor (suggested way to get the best output)
+3. You can use SSH to connect to the pi from your terminal(macOS) or powershell(windows)
+   - command is
+     ```bash
+     ssh <username>@<hostname>
+     ```
+     to connect with the ssh, you must have edited the settings from the imager when you were downloading the os to the pi, youcan watch the detailed video in here
+
+      ```
+      https://youtu.be/VFlZ7Twkkmg?feature=shared
+
+      ```
+      
+
+
+
 
 
 
