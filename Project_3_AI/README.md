@@ -47,6 +47,12 @@ This is the one of the basic model demonstrated here, it uses YOLOv6n model as d
 ```bash
 python basic_pipelines/detection.py --input resources/detection0.mp4
 ```
+- If you want to use your Camera module 3 fro the input
+   ```bash
+   python basic_pipelines/detection.py --input rpi
+   ```
+   - The rpi command takes the input from the camera module 3, make sure that the hardware is correctly set up otherwise you may encounter an error for the camera usage.
+   
 ##### To close the application press 'Ctrl+C'.
 
 For additional options run:
