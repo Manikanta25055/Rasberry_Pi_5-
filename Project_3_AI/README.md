@@ -37,3 +37,25 @@ pip install -r requirements.txt
 ```bash
 ./download_resources.sh
 ```
+# Detection Example
+![Banner](images/detection.gif)
+
+This example demonstrates object detection. It uses YOLOv6n model as default. It supports also yolov8s and yolox_s_leaky models.
+It uses Hailo's NMS (Non-Maximum Suppression) layer as part of the HEF file, so all detection networks which are compiled with NMS can be used with the same code.
+
+#### To run the example use:
+```bash
+python basic_pipelines/detection.py --input resources/detection0.mp4
+```
+##### To close the application press 'Ctrl+C'.
+
+For additional options run:
+```bash
+python basic_pipelines/detection.py --help
+```
+
+
+
+
+
+
