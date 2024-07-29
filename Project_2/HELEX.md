@@ -146,8 +146,5 @@ When implementing this code, several types of errors can occur. Below are some c
        break
    ```
 
-### Complete Code with Error Handling:
-Here is the revised code with added error handling:
-
 
 These adjustments should help handle common errors gracefully when implementing this code.
