@@ -5,7 +5,7 @@ When you want to turn on the LED, set the GPIO to *high*, and when you want to t
 
 Code:
 
-```
+```python
 from gpiozero, import LED
 from time import sleep
 
@@ -16,6 +16,6 @@ While True:
     sleep(1)
     led.off()
     sleep(1)
-
+```
 
 
