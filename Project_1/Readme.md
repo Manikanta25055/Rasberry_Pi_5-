@@ -1,4 +1,3 @@
 # Project info
 
-![IMG_2014](https://github.com/user-attachments/assets/0a51ed61-bd61-41f1-9108-3480861ad897)
-
+![IMG_1931](https://github.com/user-attachments/assets/7ceff453-98f0-465c-8b04-7ec5cb049e33)
